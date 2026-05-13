@@ -1,3 +1,10 @@
+/**
+ * @description       : 
+ * @author            : ChangeMeIn@UserSettingsUnder.SFDoc
+ * @group             : 
+ * @last modified on  : 05-13-2026
+ * @last modified by  : ChangeMeIn@UserSettingsUnder.SFDoc
+**/
 @RestResource(urlMapping = '/accountmgmt/')
 global class AccountMgmt {
 	@httpGet
@@ -38,6 +45,7 @@ global class AccountMgmt {
 		global List<Contact> conList;
 		global List<Case> caseList;
     }*/
+	
 
 	/*@httpPost
     global static String createAccount(String accName,String accRating,String accIndustry){
