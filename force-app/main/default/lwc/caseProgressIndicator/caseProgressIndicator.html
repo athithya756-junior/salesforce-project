@@ -1,0 +1,14 @@
+<!--
+  @description       : 
+  @author            : ChangeMeIn@UserSettingsUnder.SFDoc
+  @group             : 
+  @last modified on  : 05-11-2026
+  @last modified by  : ChangeMeIn@UserSettingsUnder.SFDoc
+-->
+<template>
+    <lightning-progress-indicator current-step={caseStatus} type="path" variant="base">
+        <template for:each={statusOption} for:item="step">
+            <lightning-progress-step label={step.label} value={step.value} key={step.value}></lightning-progress-step>
+        </template>
+    </lightning-progress-indicator>
+</template>
